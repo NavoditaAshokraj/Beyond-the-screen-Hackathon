@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Community Noticeboard</title>
+<link rel="stylesheet" href="board.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!--EVENTS INFO MODAL WINDOWS-->
+
+<section id="modal">
+    <section class="first_event information"><h1>Music Festival 2023</h1></section>
+    <section class="second_event information"><h1>Community Fundraiser</h1></section>
+    <section class="third_event information"><h1>Event 3</h1></section>
+    <section class="fourth_event information"><h1>Event 4</h1></section>
+    <section class="fifth_event information"><h1>Event 5</h1></section>
+    <section class="sixth_event information"><h1>Event 6</h1></section>
+</section>
+
+<section id="modal2">
+    <section class="popular1 information"><h1>Sports Day</h1></section>
+    <section class="popular2 information"><h1>Popular 2</h1></section>
+    <section class="popular3 information"><h1>Popular 3</h1></section>
+    <section class="recent1 information"><h1>Recent 1</h1></section>
+    <section class="recent2 information"><h1>Recent 2</h1></section>
+    <section class="recent3 information"><h1>Recent 3</h1></section>
+    <section class="national information"><h1>National Day Celebrations</h1></section>
+</section>
+
+<body>
+
+
+    <div class="top">
+        <p>DESIGNED BY CTRL C + CTRL V</p>
+    </div>
+
+    <section id="main">
+        <div class="content" id="section1">
+            <!--displays community news-->
+            <section class="side_display" id="left">
+                <h1>POPULAR</h1>
+                <div><img src='images/community.jpg'><h4 onclick="show_main(this.id)" id="0">Sports Day</h4></div>
+                <div><img src='images/community.jpg'><h4 onclick="show_main(this.id)" id="1">Music Festival 2023</h4></div>
+                <div><img src='images/community.jpg'><h4 onclick="show_main(this.id)" id="2">Music Festival 2023</h4></div>
+            </section>
+
+
+            <!--displays government news-->
+            <section class="main_display">
+                <h1>IMPORTANT ANNOUNCEMENTS</h1>
+                <div>
+                    <img src="images/main.jpg">
+                    <h1>CELEBRATE NATIONAL DAY WITH US!</h1>
+                    <h3 onclick="show_main(this.id)" id="6" class="bigbutton">Celebrations Await</h3>
+                </div>
+            </section>
+
+
+            <!--displays community news-->
+            <section class="side_display" id="right">
+                <h1>RECENT</h1>
+                <div><img src='images/community.jpg'><h4 onclick="show_main(this.id)" id="3">Music Festival 2023</h4></div>
+                <div><img src='images/community.jpg'><h4 onclick="show_main(this.id)" id="4">Music Festival 2023</h4></div>
+                <div><img src='images/community.jpg'><h4 onclick="show_main(this.id)" id="5">Music Festival 2023</h4></div>
+            </section>
+        </div>
+
+
+        <!--COMMUNITY SECTION-->
+
+
+
+        <div class="content" id="section2">
+            <h1>OUR COMMUNITY PRESENTS:</h1>
+            <section class="comm_events">
+                <div><img src="images/community1.jpg"><h4 onclick="show_event(this.id)" id="0">Music Festival 2023</h4></div>
+                <div class="center"><img><h4 onclick="show_event(this.id)" id="1">EVENT 2</h4></div>
+                <div><img><h4 onclick="show_event(this.id)" id="2">EVENT 3</h4></div>
+                <div><img><h4 onclick="show_event(this.id)" id="3">EVENT 4</h4></div>
+                <div class="center"><img><h4 onclick="show_event(this.id)" id="4">EVENT 5</h4></div>
+                <div><img><h4 onclick="show_event(this.id)" id="5">EVENT 6</h4></div>
+            </section>
+        </div>
+
+
+
+        <!--SURVEYS-->
+
+
+
+        <div class="content" id="section3">
+            <section class="left_survey">
+                <section class="zero">
+                    <div class="note">
+                        <h1>INCENTIVES</h1>
+                        <h2>Conducted By: Random Organization</h2>
+                        <p id="summary">SHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFO</p>
+                    </div>
+                    <img src="images/qr_code.png">
+                    <p>Scan or visit www.placeholderwebsite.com to participate in this survey.</p>
+                </section>
+                <section class="first">
+                    <div class="note">
+                        <h1>TITLE OF SURVEY 1</h1>
+                        <h2>Conducted By: Random Organization</h2>
+                        <p id="summary">SHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFO</p>
+                    </div>
+                    <img src="images/qr_code.png">
+                    <p>Scan or visit www.awesomewebsite.com to participate in this survey.</p>
+                </section>
+                <section class="second">
+                    <div class="note">
+                        <h1>TITLE OF SURVEY 2</h1>
+                        <h2>Conducted By: Random Organization 2</h2>
+                        <p id="summary">SHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFO</p>
+                    </div>
+                    <img src="images/qr_code.png">
+                    <p>Scan or visit www.randomwebsite.com to participate in this survey.</p>
+                </section>
+                <section class="third">
+                    <div class="note">
+                        <h1>TITLE OF SURVEY 3</h1>
+                        <h2>Conducted By: Random Organization 3</h2>
+                        <p id="summary">SHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFO</p>
+                    </div>
+                    <img src="images/qr_code.png">
+                    <p>Scan or visit www.googleformurl.com to participate in this survey.</p>
+                </section>
+                <section class="fourth">
+                    <div class="note">
+                        <h1>TITLE OF SURVEY 4</h1>
+                        <h2>Conducted By: Random Organization 4</h2>
+                        <p id="summary">SHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFO</p>
+                    </div>
+                    <img src="images/qr_code.png">
+                    <p>Scan or visit www.blahblahblah.com to participate in this survey.</p>
+                </section>
+                <section class="fifth">
+                    <div class="note">
+                        <h1>TITLE OF SURVEY 5</h1>
+                        <h2>Conducted By: Random Organization 5</h2>
+                        <p id="summary">SHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFO</p>
+                    </div>
+                    <img src="images/qr_code.png">
+                    <p>Scan or visit www.website.com to participate in this survey.</p>
+                </section>
+                <section class="sixth">
+                    <div class="note">
+                        <h1>TITLE OF SURVEY 6</h1>
+                        <h2>Conducted By: Random Organization 6</h2>
+                        <p id="summary">SHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFOSHORT SUMMARY OF INFO</p>
+                    </div>
+                    <img src="images/qr_code.png">
+                    <p>Scan or visit www.survey.com to participate in this survey.</p>
+                </section>
+            </section>
+
+
+
+            <section class="main_survey">
+                <section class="zero">
+                    <h1>ABOUT SURVEYS</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </section>
+                <section class="first">
+                    <h1>HELP OUR CAUSE!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </section>
+                <section class="second">
+                    <h1>GIVE US DATA!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </section>
+                <section class="third">
+                    <h1>WE NEED YOU!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </section>
+                <section class="fourth">
+                    <h1>DATA NEEDED FOR RESEARCH</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </section>
+                <section class="fifth">
+                    <h1>LEND YOUR AID</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </section>
+                <section class="sixth">
+                    <h1>SUPPORT THE COMMUNITY</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </section>
+            </section>
+
+
+
+
+            <section class="right_survey">
+                <h1>MORE SURVEYS</h1>
+                <div id="first_survey"><p>Environmental Issues</p><i class="fa fa-angle-left" aria-hidden="true" onclick="select(this.id)" id="1" style="font-size:40px;"></i></div>
+                <div><p>Event Feedback</p><i class="fa fa-angle-left" aria-hidden="true" onclick="select(this.id)" id="2" style="font-size:40px;"></i></div>
+                <div><p>Noticeboard Feedback</p><i class="fa fa-angle-left" aria-hidden="true" onclick="select(this.id)" id="3" style="font-size:40px;"></i></div>
+                <div><p>Study on Internet Usage</p><i class="fa fa-angle-left" aria-hidden="true" onclick="select(this.id)" id="4" style="font-size:40px;"></i></div>
+                <div><p>Rise in Scams</p><i class="fa fa-angle-left" aria-hidden="true" onclick="select(this.id)" id="5" style="font-size:40px;"></i></div>
+                <div><p>Community Support</p><i class="fa fa-angle-left" aria-hidden="true" onclick="select(this.id)" id="6" style="font-size:40px;"></i></div>
+            </section>
+        </div>
+
+    </section>
+
+    <div class="bottom">
+        <ul class="icons">
+            <li><i class="fa fa-users" aria-hidden="true" style="font-size:30px;" onclick="community()"></i>
+            <p>COMMUNITY</p></li>
+            <li><i class="fa fa-home" aria-hidden="true" style="font-size:30px;" onclick="home()"></i>
+            <p>MAIN</p></li>
+            <li><i class="fa fa-clipboard" aria-hidden="true" style="font-size:30px;" onclick="survey()"></i>
+            <p>SURVEYS</p></li>
+        </ul>
+    </div>
+    <script src="board.js"></script>
+</body>
+</html>
